@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Butterflies</title>
+<style>
+body {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  margin: 6em 6em;
+  font-weight: bold;
+   background-color: f8f8ff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  float: left;
+  margin-right: 10px;
+}
+li:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  display: block;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transition: transform 0.3s linear;
+}
+a:hover #img1, a:focus #img1 {
+  transform: rotate(-3deg) scale(1.5);
+} 
+a:hover #img2, a:focus #img2 {
+  transform: rotate(5deg) scale(1.5); 
+} 
+a:hover #img3, a:focus #img3 { 	
+  transform: rotate(-7deg) scale(1.5); 
+} 
+a:hover #img4, a:focus #img4 { 	
+  transform: rotate(2deg) scale(1.5); 
+}  
+a:hover img { 	
+  box-shadow: 6px 6px 6px rgba(0,0,0,.3); 
+} 
+
+
+
+</style>
+</head>
+
+<body>
+<br>
+<p>Christmas</p>
+<ul>
+  <li><a href=""><img src="pictures/christmas tree.jpg" id="img1" alt="Christmas Tree"></a></li>
+  <li><a href=""><img src="pictures/snowman.jpg" id="img2" alt="Snowman"></a></li>
+  <br>
+  <p>Halloween</p>
+  <li><a href=""><img src="pictures/purplegoldhat.jpg" id="img3" alt="Gold Purple Hat"></a></li>
+  <li><a href=""><img src="pictures/halloween.jpg" id="img4" alt="Halloween"></a></li>
+</ul>
+<br>
+<p><a href="index.html">[Back to Home Page]</a></p>
+
+</body>
+</html>
